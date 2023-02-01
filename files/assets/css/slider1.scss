@@ -1,0 +1,38 @@
+.slider .rsts-prev {
+  left: 4%;
+  background-image: url('/files/layout/arrow-left.svg');
+}
+
+.slider .rsts-next {
+  background-image: url('/files/layout/arrow-right(1).svg');
+  right: 4%;
+}
+
+.slider .rsts-prev, .slider .rsts-next {
+  top: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 15px #cecece;
+  background-color: #cecece50;
+  border-radius: 50%;
+  &:hover {
+    background-color: transparent;
+    border: none;
+    /*filter: invert(1);*/
+  }
+}
+
+.rsts-type-slide .rsts-view {
+  cursor: pointer;
+}
+
+.rsts-skin-default .rsts-prev, .rsts-skin-default .rsts-next {
+  border: none;
+  width: 45px;
+  height: 50px;
+ /* box-shadow: none;*/
+  span {
+    display: none;
+  }
+}

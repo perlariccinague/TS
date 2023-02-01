@@ -1,0 +1,133 @@
+#footer {
+  width:100%;
+  height:400px;
+  min-height:400px;
+  position:relative;
+  float:left;
+  margin-top:-30px;
+  background-color:#dee3e8;
+  bottom:0;
+  left:0;
+  margin-bottom: -450px;
+  .inside {
+    min-height:300px;
+    max-width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    padding:20px 20px 40px;
+    border-bottom:1px solid #b2bdc8;
+  }
+  .mod_customnav {
+    width:49%;
+    float:left;
+    padding-top:25px;
+    border-top:1px solid #fff;
+  }
+}
+
+#footer .logo {
+  margin-top:60px;
+  margin-bottom:25px;
+}
+
+#footer .adresse {
+  width:49%;
+  float:left;
+  margin-right:2%;
+  padding-top:25px;
+  border-top:1px solid #fff;
+}
+
+#footer .logo a {
+  font:1.4em 'Merriweather',serif;;
+  text-decoration:none;
+  color:#455968;
+  font-weight: 400;
+}
+
+#footer p {
+  font:1.2em/2.4em 'Open Sans',sans serif;
+  text-decoration:none;
+  color:#455968;
+  font-weight: 400;
+  a {
+    font:1em 'Open Sans',sans serif;
+    text-decoration:none;
+    color:#455968;
+    font-weight: 400;
+  }
+}
+
+#footer img.maps {
+  margin-right:12px;
+}
+
+#footer a.mail {
+  padding-left:30px;
+  background-image:url("/files/layout/mail_icon.png");
+  background-size: 19px;
+}
+
+#footer a.facebook {
+  padding-left:30px;
+  background-image:url("/files/layout/facebook_icon.png");
+}
+
+#footer a.phone {
+  padding-left:30px;
+  background-image:url("/files/layout/phone_icon.png");
+  background-size: 17px;
+}
+
+#footer a.phone, #footer a.facebook, #footer a.mail {
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+
+#footer .mod_customnav li a,
+#footer .mod_customnav li strong {
+  font: 1.2em/2.4em 'Open Sans',sans serif;
+  text-decoration: none;
+  color: #455968;
+}
+
+#footer .mod_customnav li {
+  padding-left:30px;
+  background-image:url("/files/layout/link_li.png");
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+
+#footer a:hover {
+  background-color:rgba(178,189,200,.5);
+}
+
+@media screen and (max-width: 800px){
+  #footer {
+    height:auto;
+  }
+  #footer .inside {
+    border-bottom:0;
+  }
+  #footer .logo {
+    text-align:center;
+  }
+  #footer .adresse,
+  #footer .mod_customnav {
+    width:100%;
+    text-align:center;
+  }
+  #footer .mod_customnav li {
+    padding-left:0;
+    background-image: none;
+  }
+  #footer .mod_customnav li a,
+  #footer .mod_customnav li span {
+    display:block;
+    border-bottom:1px solid rgba(69,89,104,.2);
+  }
+  #footer .mod_customnav li.last a,
+  #footer .mod_customnav li.last span {
+    border-bottom:0;
+  }
+}

@@ -1,0 +1,10 @@
+<section class="ce_page_teaser ce_text block">
+    <div class="image_container float_above">
+    <a href="{{link_url::<?= $this->linkedPage ?>}}" title="">
+    <img src="{{file::<?= $this->image ?>}}" alt="" width="200" height="220">
+    </a>
+    </div>
+    <h1><a href="{{link_url::<?= $this->linkedPage ?>}}"><?= $this->name ?></a></h1>
+    <?= $this->description ?>
+    <a href="{{link_url::<?= $this->linkedPage ?>}}" title="Den Artikel lesen: <?= $this->name ?>" class="more">Weiterlesen … <span class="invisible"><?= $this->name ?></span></a>
+</section>
