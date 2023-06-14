@@ -170,6 +170,12 @@
     width:70%;
     margin-top:-64px;
   }
+  #header .mod_pageimage, #header .image_container {
+    height: auto;
+    img {
+      transform: translateY(0);
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -185,5 +191,11 @@
   #header .mod_navigation li img {
     width:40%;
     margin-top:-36px;
+  }
+  #header .mod_pageimage, #header .image_container {
+    height: auto;
+    img {
+      transform: translateY(0);
+    }
   }
 }

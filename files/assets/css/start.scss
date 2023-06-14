@@ -7,6 +7,12 @@
 #main .mod_newslist {
   padding: 10px 20px 30px;
   background-color: #dee3e8;
+  font-size: 17px;
+  time {
+    display: inherit;
+    margin: 10px auto;
+    font-weight: bold;
+  }
 }
 
 
